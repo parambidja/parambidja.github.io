@@ -22,21 +22,9 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body>
-
-		<!-- particles.js container -->
-		<div id="particles-js" class="particles-formatting"></div>
-		<script>
-		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-		particlesJS.load('particles-js', 'particlesjs-config.json', function() {
-			console.log('callback - particles.js config loaded');
-		});
-		</script>
-		<!-- stats - count particles -->
-
-
 		<!-- Wrapper -->
 			<div id="wrapper">
-
+			<div id="particles-js" class="particles-formatting"></div>
 				<!-- Header -->
 					<header id="header">
 
@@ -80,7 +68,7 @@
                     <h3 class="major">Current</h3>
 	                    <ul>
 						  <li>Software Development Engineer II @ <a href="https://amazon.com" target="_blank">Amazon</a> 👨‍💻</li>
-						  <li>Machine Learning for <a href="https://www.amazon.jobs/en/business_categories/retail" target="_blank">Amazon Retail</a> 🛍️ 🔎</li>
+						  <li>Machine Learning for <a href="https://www.amazon.jobs/en/business_categories/retail" target="_blank">Amazon Retail</a> 🛍️🔎</li>
 						  <li>Researcher @ <a href="https://healthinfo.lab.uconn.edu/" target="_blank">Laboratory of Machine Learning & Health Informatics</a> 🔬👨‍⚕</li>
 						  <li>Regional Core Team Lead @ <a href="https://www.bapscharities.org/usa/" target="_blank">BAPS</a> Youth Activities 👨‍🏫</li>
 						</ul>
@@ -90,9 +78,9 @@
                             <li>Valedictorian @ <a href="https://www.engr.uconn.edu/" target="_blank">UConn Engineering</a> 🎓</li>
                             <li>Teaching Assistant @ <a href="https://www.cse.uconn.edu/" target="_blank">UConn CSE</a> (Data Structures, Systems Programming, Computer Architecture) 🤓</li>
 							<li>Software Development Engineer I @ <a href="https://www.amazon.com/amazon-fashion/b?ie=UTF8&node=7141123011" target="_blank">Amazon Fashion</a> 👨‍💻</li>
-    						<li>Software Engineering Intern @ <a href="https://www.amazon.jobs/en/teams/finance-technology" target="_blank">Amazon FinTech</a>👨‍💻</li>
+    						<li>Software Engineering Intern @ <a href="https://www.amazon.jobs/en/teams/finance-technology" target="_blank">Amazon FinTech</a> 👨‍💻</li>
                             <li>Tech Lead @ <a href="https://twitter.com/storiesthatmove">DigiPopsTV</a> 🎥</li>
-    						<li>Software Engineering Intern @ <a href="https://www.jpmorganchase.com/" target="_blank">JP Morgan Chase</a>📈</li>
+    						<li>Software Engineering Intern @ <a href="https://www.jpmorganchase.com/" target="_blank">JP Morgan Chase</a> 📈</li>
                             <li>Web Development Intern @ <a href="https://www.yale.edu/">Yale University</a></li>
 						</ul>
 
@@ -172,10 +160,13 @@
 
 			</div>
 
-		<!-- BG -->
-			<div id="bg"></div>
-
 		<!-- Scripts -->
+		<script>
+		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+		particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+			console.log('callback - particles.js config loaded');
+		});
+		</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>

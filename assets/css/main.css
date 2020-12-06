@@ -545,7 +545,6 @@ input[type="radio"]+label:before {
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     pointer-events: none;
-    /* background-image: url("../../images/overlay.png"); */
     background-color: rgba(19, 21, 25, 0.5);
     border-radius: 4px;
     content: '';
@@ -957,7 +956,6 @@ input[type="submit"], input[type="reset"], input[type="button"], button {
     -webkit-transition-delay: 0.75s;
     -ms-transition-delay: 0.75s;
     transition-delay: 0.75s;
-    /* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
@@ -1014,31 +1012,13 @@ body.is-loading #bg:before {
     position: relative;
     min-height: 100vh;
     width: 100%;
-    padding: 4rem 2rem;
+    /* padding: 4rem 2rem; */
     z-index: 3;
 }
 
 #wrapper:before {
     content: '';
     display: block;
-}
-
-@media screen and (max-width:1680px) {
-    #wrapper {
-        padding: 3rem 2rem;
-    }
-}
-
-@media screen and (max-width:736px) {
-    #wrapper {
-        padding: 2rem 1rem;
-    }
-}
-
-@media screen and (max-width:480px) {
-    #wrapper {
-        padding: 1rem;
-    }
 }
 
 #header {

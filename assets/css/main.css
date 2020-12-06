@@ -545,7 +545,7 @@ input[type="radio"]+label:before {
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     pointer-events: none;
-    background-image: url("../../images/overlay.png");
+    /* background-image: url("../../images/overlay.png"); */
     background-color: rgba(19, 21, 25, 0.5);
     border-radius: 4px;
     content: '';
@@ -957,7 +957,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button {
     -webkit-transition-delay: 0.75s;
     -ms-transition-delay: 0.75s;
     transition-delay: 0.75s;
-    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+    /* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
@@ -973,7 +973,6 @@ input[type="submit"], input[type="reset"], input[type="button"], button {
     -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-    background-image: url("../../images/bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1059,10 +1058,6 @@ body.is-loading #bg:before {
     -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-    background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
-    background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
-    background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
-    background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
     max-width: 100%;
     text-align: center;
 }
@@ -1332,7 +1327,6 @@ body.is-loading #header .content .inner {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(27, 31, 34, 0.85);
     border-radius: 4px;
     opacity: 0;
 }
@@ -1437,4 +1431,12 @@ body.is-article-visible #footer {
 
 body.is-loading #footer {
     opacity: 0;
+}
+
+.particles-formatting {
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  background-color: #121e2f;
 }

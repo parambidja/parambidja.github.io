@@ -3,4 +3,4 @@
 ```
 python3 -m http.server
 ```
-Open http://localhost:8000/ in your prefered browser
+Open http://localhost:8000/ in your preferred browser
